@@ -22,4 +22,12 @@
         public string AddressLine3 { get; private set; }
         public string PostCode { get; private set; }
     }
+
+    public class Order
+    {
+        public Order(int i, Customer customer)
+        {
+            throw new System.NotImplementedException();
+        }
+    }
 }
