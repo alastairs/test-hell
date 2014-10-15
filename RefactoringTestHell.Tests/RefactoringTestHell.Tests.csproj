@@ -33,6 +33,9 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BobTheBuilder">
+      <HintPath>..\RefactoringTestHell\packages\BobTheBuilder.0.2.2\lib\net451\BobTheBuilder.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
